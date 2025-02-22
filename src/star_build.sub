@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -p markov_cpu # partition name
+#SBATCH -t 0-4:00 # hours:minutes for job
+#SBATCH -c 8 # number of cores requested (>= runThredN number)
+#SBATCH --mem 64G
+#SBATCH --job-name yxz3103_STAR_index # Job name
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --mail-user=yxz3103@case.edu
+#SBATCH -o %j.out # File to which standard out will be written
+#SBATCH -e %j.err # File to which standard err will be written
+
+cd /scratch/markov2/users/yxz3103/project
+module load STAR
+STAR --runThreadN 8 \
+--runMode genomeGenerate \
+--genomeDir indices/hg38_index \
+--genomeFastaFiles genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa \
+--sjdbGTFfile annotation/Homo_sapiens.GRCh38.113.gtf \
+--sjdbOverhang 99
