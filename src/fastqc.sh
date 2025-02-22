@@ -20,4 +20,4 @@ OUTPUT_DIR=$2
 cd /scratch/markov2/users/yxz3103/project
 mkdir -p "$OUTPUT_DIR"
 
-/home/abc123/FastQC/fastqc fastq/*fastq.gz -o FASTQC_Reports
+/home/yxz3103/FastQC/fastqc fastq/*fastq.gz -o FASTQC_Reports
