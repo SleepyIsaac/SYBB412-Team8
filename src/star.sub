@@ -1,0 +1,44 @@
+#!/bin/bash
+#SBATCH -p markov_cpu # partition name
+#SBATCH -t 0-24:00 # hours:minutes for job
+#SBATCH -c 8 # number of cores requested (>= runThredN number)
+#SBATCH --mem 64G
+#SBATCH --job-name yxz3103_STAR_index # Job name
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=yxz3103@case.edu
+#SBATCH -o %j.out # File to which standard out will be written
+#SBATCH -e %j.err # File to which standard err will be written
+
+cd /scratch/markov2/users/yxz3103/project
+module load STAR
+
+if [[ -z "$1" ]]; then
+    echo "Usage: sbatch $0 <FASTQ_DIR>"
+    exit 1
+fi
+
+FASTQ_DIR=$1
+
+for file1 in ${FASTQ_DIR}/*_1.fastq.gz; do
+
+    sample_id=$(basename "$file1" _1.fastq.gz)
+
+    sample_id=$(basename "$file1" _1.fastq.gz)
+
+    file2="${FASTQ_DIR}/${sample_id}_2.fastq.gz"
+
+    if [[ -f "$file2" ]]; then
+        echo "Aligning sample: $sample_id"
+
+                STAR --readFilesCommand zcat --runThreadN 8 \
+                --genomeDir indices/hg38_index \
+                --outSAMtype BAM SortedByCoordinate \
+                --bamRemoveDuplicatesType UniqueIdentical \
+                --outSAMunmapped Within --outSAMattributes Standard \
+                --readFilesIn "$file1" "$file2" \
+                --outFileNamePrefix "STAR_align/${sample_id}"
+
+    else
+        echo "Skipping $sample_id: missing pair file $file2"
+    fi
+done
