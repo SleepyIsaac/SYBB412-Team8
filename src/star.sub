@@ -12,12 +12,15 @@
 cd /scratch/markov2/users/yxz3103/project
 module load STAR
 
-if [[ -z "$1" ]]; then
-    echo "Usage: sbatch $0 <FASTQ_DIR>"
+if [[ -z "$1" || -z "$2" ]]; then
+    echo "Usage: sbatch $0 <FASTQ_DIR> <OUTPUT_DIR>"
     exit 1
 fi
 
 FASTQ_DIR=$1
+OUTPUT_DIR=$2
+
+mkdir -p "$OUTPUT_DIR"
 
 for file1 in ${FASTQ_DIR}/*_1.fastq.gz; do
 
@@ -36,7 +39,7 @@ for file1 in ${FASTQ_DIR}/*_1.fastq.gz; do
                 --bamRemoveDuplicatesType UniqueIdentical \
                 --outSAMunmapped Within --outSAMattributes Standard \
                 --readFilesIn "$file1" "$file2" \
-                --outFileNamePrefix "STAR_align/${sample_id}"
+                --outFileNamePrefix "${OUTPUT_DIR}/${sample_id}"
 
     else
         echo "Skipping $sample_id: missing pair file $file2"
