@@ -13,7 +13,7 @@ cd /scratch/markov2/users/yxz3103/project
 module load STAR
 
 if [[ -z "$1" || -z "$2" ]]; then
-    echo "Usage: sbatch $0 <FASTQ_DIR> <OUTPUT_DIR>"
+    echo "Usage: qsub $0 <FASTQ_DIR> <OUTPUT_DIR>"
     exit 1
 fi
 
