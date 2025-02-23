@@ -1,0 +1,15 @@
+Status	BAM_dup_removed//SRR11619634_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619635_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619646_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619649_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619651_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619658_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619662_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619669_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619674_trimmedAligned.sortedByCoord.out_nodup.bam	BAM_dup_removed//SRR11619675_trimmedAligned.sortedByCoord.out_nodup.bam
+Assigned	264976	141745	3692188	170617	1699398	206447	203827	652108	218781	525834
+Unassigned_Unmapped	68807	22110	353786	28716	178053	30855	27249	90224	36406	61121
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	334216	93350	3343228	103928	2726887	146280	147776	468179	153769	344979
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	692360	271946	4232780	305064	2249591	406553	277832	1285637	393450	855982
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	10848	6063	147485	7699	78640	7762	7825	23732	8264	18193
