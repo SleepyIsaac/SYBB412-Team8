@@ -49,6 +49,7 @@ The analysis was conducted using **Case Western Reserve University High-Performa
 - **FastQC**: v0.12.1
 - **fastp**: v0.24.0
 - **MultiQC**: v1.27.1
+- **STAR**: v2.7.9a
 - **featureCounts**: v2.0.8
 
 ## Contributors
