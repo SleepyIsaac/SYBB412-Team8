@@ -1,0 +1,312 @@
+{
+    "SRR11619634": {
+        "SRX_ID": "SRX8114353",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412457",
+            "Name": "C22_B002570",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C22_B002570",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "1,445,753",
+        "Bases": "289.2M",
+        "Size": "92Mb",
+        "Published": "2020-05-03",
+        "ID": "10564234"
+    },
+    "SRR11619635": {
+        "SRX_ID": "SRX8114354",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412458",
+            "Name": "C22_B003179",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C22_B003179",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "315,514",
+        "Bases": "63.1M",
+        "Size": "21.2Mb",
+        "Published": "2020-05-03",
+        "ID": "10564235"
+    },
+    "SRR11619646": {
+        "SRX_ID": "SRX8114365",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412469",
+            "Name": "C3_B003179",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C3_B003179",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "9,359,310",
+        "Bases": "1.9G",
+        "Size": "578.5Mb",
+        "Published": "2020-05-03",
+        "ID": "10564246"
+    },
+    "SRR11619649": {
+        "SRX_ID": "SRX8114368",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412472",
+            "Name": "C4_B000563",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C4_B000563",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "745,504",
+        "Bases": "149.1M",
+        "Size": "45.6Mb",
+        "Published": "2020-05-03",
+        "ID": "10564249"
+    },
+    "SRR11619651": {
+        "SRX_ID": "SRX8114370",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412474",
+            "Name": "C4_B003179",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C4_B003179",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "4,891,188",
+        "Bases": "978.2M",
+        "Size": "297.9Mb",
+        "Published": "2020-05-03",
+        "ID": "10564251"
+    },
+    "SRR11619658": {
+        "SRX_ID": "SRX8114377",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412481",
+            "Name": "C6_B000563",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C6_B000563",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "957,096",
+        "Bases": "191.4M",
+        "Size": "59.2Mb",
+        "Published": "2020-05-03",
+        "ID": "10564258"
+    },
+    "SRR11619662": {
+        "SRX_ID": "SRX8114381",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412485",
+            "Name": "C7_B000563",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C7_B000563",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "657,128",
+        "Bases": "131.4M",
+        "Size": "42Mb",
+        "Published": "2020-05-03",
+        "ID": "10564262"
+    },
+    "SRR11619669": {
+        "SRX_ID": "SRX8114388",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412492",
+            "Name": "C8_B001546",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C8_B001546",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "2,770,285",
+        "Bases": "554.1M",
+        "Size": "170.1Mb",
+        "Published": "2020-05-03",
+        "ID": "10564269"
+    },
+    "SRR11619674": {
+        "SRX_ID": "SRX8114393",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412497",
+            "Name": "C9_B002847",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C9_B002847",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "3,102,547",
+        "Bases": "621.3M",
+        "Size": "192.5Mb",
+        "Published": "2020-05-03",
+        "ID": "10564274"
+    },
+    "SRR11619675": {
+        "SRX_ID": "SRX8114394",
+        "Title": "single-cell RNAseq of human NSCLC",
+        "Sample": {
+            "ID": "SAMN14412498",
+            "Name": "C9_B001546",
+            "Organism": "Homo sapiens"
+        },
+        "Design": "smart-seq2",
+        "Submitted_by": "CZBIOHUB",
+        "Study": {
+            "Title": "Heterogeneity and targeted therapy-induced adaptations in lung cancer revealed by longitudinal single-cell RNA sequencing",
+            "BioProject": "PRJNA591860",
+            "SRP_ID": "SRP238929",
+            "Experiments": "All experiments",
+            "Runs": "All runs"
+        },
+        "Library": {
+            "Name": "C9_B001546",
+            "Instrument": "unspecified",
+            "Strategy": "RNA-Seq",
+            "Source": "TRANSCRIPTOMIC",
+            "Selection": "other",
+            "Layout": "PAIRED"
+        },
+        "Spots": "2,096,791",
+        "Bases": "419.4M",
+        "Size": "128.9Mb",
+        "Published": "2020-05-03",
+        "ID": "10564275"
+    }
+}
