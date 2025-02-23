@@ -52,8 +52,8 @@ The analysis was conducted using **Case Western Reserve University High-Performa
 - **featureCounts**: v2.0.8
 
 ## Contributors
-- **Isaac Zeng** (Department of Nutrition, Case Western Reserve University)
-- **Max Ni** (Department of Biology, Case Western Reserve University)
+- **Isaac Zeng** (Department of Nutrition, Case Western Reserve University, yxz3103@case.edu, zengy2@ccf.org)
+- **Max Ni** (Department of Biology, Case Western Reserve University, xxn49@case.edu)
 
 ## References
 > Maynard, A., McCoach, C. E., Rotow, J. et al. (2020). *Therapy-Induced Evolution of Human Lung Cancer Revealed by Single-Cell RNA Sequencing*. Cell. DOI: [10.1016/j.cell.2020.07.013](https://doi.org/10.1016/j.cell.2020.07.013)
