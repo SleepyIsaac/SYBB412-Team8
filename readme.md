@@ -46,9 +46,9 @@ The analysis was conducted using **Case Western Reserve University High-Performa
 - **Python**: 3.12.3
 - **SRA Toolkit**: v3.2.0
 - **Entrez Direct**: v23.5
-- **fastqc**: v0.12.1
+- **FastQC**: v0.12.1
 - **fastp**: v0.24.0
-- **multiqc**: v1.27.1
+- **MultiQC**: v1.27.1
 - **featureCounts**: v2.0.8
 
 ## Contributors
