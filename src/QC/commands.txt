@@ -1,0 +1,40 @@
+mkdir /home/yxz3103/SYBB412/Programs
+cd /home/yxz3103/SYBB412/Programs
+
+# Setting up sratools
+wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+tar -vxzf sratoolkit.tar.gz
+export PATH=$PATH:$PWD/sratoolkit.3.2.0-ubuntu64/bin
+which fastq-dump
+## Test if sratools works
+fastq-dump --stdout SRR390728 | head -n 8
+
+# Setting up Entrez direct
+ sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+ export PATH=${HOME}/edirect:${PATH}
+
+# Setting up Time::HiRes module
+module load Perl/5.34.1-GCCcore-11.3.0
+cpanm --local-lib=~/perl5 Time::HiRes
+export PERL5LIB=$HOME/perl5/lib/perl5:$PERL5LIB
+## Test if it works
+perl -e 'use Time::HiRes; print "Module installed successfully!\n";'
+
+# Downloading fastq files
+echo 'repository/user/main/public/root = "/tmp' > $HOME/.ncbi/user-settings.mkfg
+esearch -db sra -query PRJNA591860 | efetch -format runinfo | cut -d "," -f 1 | grep SRR | head -50 | xargs fastq-dump --split-files --gzip
+
+# Set up project folder
+mkdir /scratch/markov2/users/yxz3103/project
+## Set up the fastq folder and copy the fastq files
+cd /scratch/markov2/users/yxz3103/project
+mkdir fastq
+cd fastq
+cp /home/yxz3103/SYBB412/Programs/*.fastq .
+
+
+SRR_FILE="SRR_Acc_List_TN_AZ_01.txt"
+
+head -50 "$SRR_FILE" | xargs fastq-dump --split-files --gzip
+
+
