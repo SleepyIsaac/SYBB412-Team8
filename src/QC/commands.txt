@@ -35,6 +35,23 @@ cp /home/yxz3103/SYBB412/Programs/*.fastq .
 
 SRR_FILE="SRR_Acc_List_TN_AZ_01.txt"
 
+mkdir genome
+mkdir indices
+mkdir annotation
+mkdir STAR_align
+
+cd genome
+wget ftp://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+cd ../
+
+cd annotation
+wget https://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/Homo_sapiens.GRCh38.113.gtf.gz
+gunzip Homo_sapiens.GRCh38.*.gtf.gz
+head Homo_sapiens.GRCh38.*.gtf
+touch Homo_sapiens.GRCh38.*.gtf
+cd ../
+
 head -50 "$SRR_FILE" | xargs fastq-dump --split-files --gzip
 
 
